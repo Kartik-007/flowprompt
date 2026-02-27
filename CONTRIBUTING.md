@@ -19,7 +19,7 @@ This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md). By particip
 1. Fork the repository on GitHub
 2. Clone your fork:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/FlowPrompt.git
+   git clone https://github.com/YOUR_GITHUB_USERNAME/FlowPrompt.git
    cd FlowPrompt
    ```
 3. Generate the Xcode project:
@@ -64,7 +64,7 @@ FlowPrompt requires Accessibility permission for auto-paste and text capture. On
 
 ## Reporting Bugs
 
-Use the [bug report template](https://github.com/kartikmehra/FlowPrompt/issues/new?template=bug_report.md) and include:
+Use the [bug report template](https://github.com/Kartik-007/FlowPrompt/issues/new?template=bug_report.md) and include:
 
 - macOS version
 - FlowPrompt version
@@ -73,7 +73,7 @@ Use the [bug report template](https://github.com/kartikmehra/FlowPrompt/issues/n
 
 ## Suggesting Features
 
-Use the [feature request template](https://github.com/kartikmehra/FlowPrompt/issues/new?template=feature_request.md). Describe the problem you're solving, not just the solution you want.
+Use the [feature request template](https://github.com/Kartik-007/FlowPrompt/issues/new?template=feature_request.md). Describe the problem you're solving, not just the solution you want.
 
 ## Code Style
 

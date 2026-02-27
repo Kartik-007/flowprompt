@@ -2,7 +2,7 @@
 
 **Store, search, and instantly paste your prompts from the macOS menu bar.**
 
-[![Build](https://github.com/kartikmehra/FlowPrompt/actions/workflows/build.yml/badge.svg)](https://github.com/kartikmehra/FlowPrompt/actions/workflows/build.yml)
+[![Build](https://github.com/Kartik-007/FlowPrompt/actions/workflows/build.yml/badge.svg)](https://github.com/Kartik-007/FlowPrompt/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![macOS 13+](https://img.shields.io/badge/macOS-13%2B-brightgreen.svg)]()
 
@@ -15,19 +15,19 @@ FlowPrompt is a lightweight macOS menu bar app for storing, organizing, and inst
 ### Homebrew (recommended)
 
 ```bash
-brew tap kartikmehra/flowprompt
+brew tap Kartik-007/flowprompt
 brew install --cask flowprompt
 ```
 
 ### Download
 
-Grab the latest `.zip` from [Releases](https://github.com/kartikmehra/FlowPrompt/releases), unzip, and drag `FlowPrompt.app` to your Applications folder.
+Grab the latest `.zip` from [Releases](https://github.com/Kartik-007/FlowPrompt/releases), unzip, and drag `FlowPrompt.app` to your Applications folder.
 
 ### Build from source
 
 ```bash
 brew install xcodegen
-git clone https://github.com/kartikmehra/FlowPrompt.git
+git clone https://github.com/Kartik-007/FlowPrompt.git
 cd FlowPrompt
 xcodegen generate
 xcodebuild -project FlowPrompt.xcodeproj -scheme FlowPrompt -configuration Release build
@@ -80,7 +80,7 @@ Prompts are stored as human-readable JSON at `~/.flowprompt/prompts.json`. Back 
 - [ ] Prompt sharing via URL
 - [ ] Customizable hotkeys
 
-See the [open issues](https://github.com/kartikmehra/FlowPrompt/issues) for more ideas, and feel free to suggest your own.
+See the [open issues](https://github.com/Kartik-007/FlowPrompt/issues) for more ideas, and feel free to suggest your own.
 
 ## Contributing
 
