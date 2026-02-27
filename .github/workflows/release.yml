@@ -37,6 +37,12 @@ jobs:
           cd "$(dirname "$APP_PATH")"
           zip -r FlowPrompt.zip FlowPrompt.app
 
+      - name: Compute SHA256
+        run: |
+          shasum -a 256 build/Build/Products/Release/FlowPrompt.zip
+          echo ""
+          echo "Update your Homebrew Cask with the SHA256 above."
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
