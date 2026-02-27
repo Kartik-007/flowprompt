@@ -1,6 +1,6 @@
 cask "flowprompt" do
   version "1.0.0"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "53f1c67199247672e89562b49fbd382029e7ddea65636c565e1fef786dcb8fc1"
 
   url "https://github.com/Kartik-007/FlowPrompt/releases/download/v#{version}/FlowPrompt.zip"
   name "FlowPrompt"
