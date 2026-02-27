@@ -1,0 +1,26 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# XcodeGen generates the project file — don't commit it
+*.xcodeproj
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Archive
+*.xcarchive
+
+# Code signing
+*.mobileprovision
+*.p12

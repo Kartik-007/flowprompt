@@ -1,0 +1,26 @@
+name: FlowPrompt
+options:
+  bundleIdPrefix: com.flowprompt
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+targets:
+  FlowPrompt:
+    type: application
+    platform: macOS
+    sources:
+      - FlowPrompt
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.flowprompt.app
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        INFOPLIST_FILE: FlowPrompt/Info.plist
+        CODE_SIGN_ENTITLEMENTS: FlowPrompt/FlowPrompt.entitlements
+        SWIFT_VERSION: "5.9"
+        MACOSX_DEPLOYMENT_TARGET: "13.0"
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGNING_REQUIRED: "NO"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
